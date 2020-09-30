@@ -3,24 +3,17 @@ import './App.css';
 import {BrowserRouter, NavLink, Route} from "react-router-dom";
 
 const Profile = ()=>{
-    return (
-        <h1>Это страница с профилем</h1>
-    )
+    return   <h1>Это страница с профилем</h1>
+
 }
 const Message = ()=>{
-    return(
-        <h1>Сообщения</h1>
-    )
+    return <h1>Сообщения</h1>
 }
 const Settings = ()=>{
-    return(
-        <h1>Настройки</h1>
-    )
+    return <h1>Настройки</h1>
 }
 const Friends = ()=>{
-    return(
-        <h1>Мои друзья</h1>
-    )
+    return <h1>Мои друзья</h1>
 }
 const Menu =()=>{
     return <div className="nav flex-column nav-pills" aria-orientation="vertical">
